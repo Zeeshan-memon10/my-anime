@@ -1,0 +1,21 @@
+/* Set the background color of the body to black */
+body {
+    background-color: black;
+    color: white; /* Set text color to white for readability */
+    font-family: Arial, sans-serif; /* Set a default font for your content */
+  }
+  
+  /* Center all block-level elements (headings, paragraphs, etc.) horizontally */
+  h1, h2, h3, p, div {
+    text-align: center;
+  }
+  
+  /* Optionally, center content vertically (adjust padding as needed) */
+  .centered-content {
+    display: flex; /* Use flexbox for vertical centering */
+    justify-content: center; /* Center content horizontally within the element */
+    align-items: center; /* Center content vertically within the element */
+    min-height: 100vh; /* Set minimum height to cover viewport (optional) */
+    padding: 20px; /* Add some padding for better spacing (optional) */
+  }
+  
